@@ -21,7 +21,9 @@ def greeting(name):
 
 # Syntax to call a function:
 greeting('Matt')
-
+```
+### Create simple functions
+```python
 # Creating a function that adds 2 arguments to eachother
 def add(num1, num2):
     print(num1 + num2)
@@ -33,7 +35,6 @@ def subtract(arg1, arg2):
     print(arg1 - arg2)
 
 subtract(72, 50)
-
 ```
 ### Task
 ```python
