@@ -7,9 +7,6 @@
 **What are functions and why we use them:**
 - DRY: Dont, Repeat, Yourself
 
-**Creating a function**
-- Syntax: `def name_of_function()`
-
 **Functions**
 ```python
 # Creating a greetings function
@@ -37,8 +34,9 @@ def subtract(arg1, arg2):
 
 subtract(72, 50)
 
-
-# Task
+```
+### Task
+```python
 # Create a function to *
 # Create a function to /
 # Create a function to %
@@ -62,7 +60,7 @@ def power(arg1, arg2):
 def modulus(arg1, arg2):
     return arg1 % arg2
 
-# Can also use return() instead of print() which returns the answer as a value to be used
+# Can also use return() instead of print() which returns the answer of the function
 
 print(multiply(5, 10))
 print(divide(33, 11))
@@ -70,3 +68,15 @@ print(percent(27, 932))
 print(power(3, 3))
 print(modulus(19,2))
 ```
+
+### Best Practices
+- Best practice is to have a small block
+of code in any function that does 1 job.
+- Pseudocode where required to explain
+what the code is doing, usually 1 line.
+- HINTs: create hints in simple bullet 
+points or pointers
+- Comments regarding your function results
+at the end are also acceptable. This means
+you dont necessarily need huge amounts
+of pseudocoding
