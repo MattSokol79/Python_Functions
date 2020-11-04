@@ -59,10 +59,14 @@ def power(arg1, arg2):
     # Where arg1 is the number and arg2 is the power
     return arg1**arg2
 
+def modulus(arg1, arg2):
+    return arg1 % arg2
+
 # Can also use return() instead of print() which returns the answer as a value to be used
 
 print(multiply(5, 10))
 print(divide(33, 11))
 print(percent(27, 932))
 print(power(3, 3))
+print(modulus(19,2))
 ```
